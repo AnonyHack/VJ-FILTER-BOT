@@ -2,6 +2,6 @@ services:
   - type: web
     name: vj-filter-bot
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
     plan: free
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: python bot.py
