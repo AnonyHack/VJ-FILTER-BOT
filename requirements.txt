@@ -29,7 +29,7 @@ PyLeaves==1.0.2
 youtube-search-python==1.4.6
 opencv-python-headless==4.7.0.68 
 googletrans==3.1.0a0 
-python-dotenv==0.21.1 
+python-dotenv 
 gTTS==2.3.1 
 speedtest==0.0.1 
 humanize==4.6.0 
@@ -39,3 +39,4 @@ dnspython==2.3.0
 ffmpeg-python>=0.2.0
 openai==0.25.0
 git+https://github.com/Joelkb/cinemagoer
+
