@@ -176,23 +176,14 @@ OTHER DB :-
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
-    LOG_TEXT_G = """
-<b>#NewGroup<br>
-★ Gʀᴏᴜᴘ Nᴀᴍᴇ   : {} (<code>{}</code>)<br>
-★ Mᴇᴍʙᴇʀs      : <code>{}</code><br>
-★ Aᴅᴅᴇᴅ Bʏ     : {}<br>
-★ Gʀᴏᴜᴘ Lɪɴᴋ   : <a href="https://t.me/c/{}/">Open Group</a><br>
-★ Cʀᴇᴀᴛᴇᴅ Dᴀᴛᴇ : <code>{}</code>
-</b>"""
+    LOG_TEXT_G = """#NewGroup
+Gʀᴏᴜᴘ = {}(<code>{}</code>)
+Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+Aᴅᴅᴇᴅ Bʏ - {}"""
 
-    LOG_TEXT_P = """
-<b>#NewUser<br>
-★ ID        : <code>{}</code><br>
-★ Nᴀᴍᴇ      : {}<br>
-★ Uꜱᴇʀɴᴀᴍᴇ  : @{}<br>
-★ Mᴇɴᴛɪᴏɴ   : <a href="tg://user?id={}">{}</a><br>
-★ Jᴏɪɴ Dᴀᴛᴇ : <code>{}</code>
-</b>"""
+    LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Nᴀᴍᴇ - {}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
@@ -764,5 +755,6 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
