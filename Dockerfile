@@ -1,8 +1,4 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-# Use a maintained base image
+# Use a supported Python base image
 FROM python:3.10-slim-bullseye
 
 # Install system dependencies (git, ffmpeg, etc.)
@@ -18,9 +14,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -U pip && pip install --no-cache-dir -r requirements.txt
 
-# Copy project
+# Copy project code
 COPY . .
 
-# Default command
-CMD ["python", "bot.py"]
+# Expose port (needed if running webhook/server mode)
+EXPOSE 5000
 
+# Run your bot
+CMD ["python", "bot.py"]
