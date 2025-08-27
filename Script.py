@@ -177,13 +177,18 @@ OTHER DB :-
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
     LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+★ Gʀᴏᴜᴘ Nᴀᴍᴇ   : {} (<code>{}</code>)
+★ Mᴇᴍʙᴇʀs      : <code>{}</code>
+★ Aᴅᴅᴇᴅ Bʏ     : {}
+★ Gʀᴏᴜᴘ Lɪɴᴋ   : <a href="https://t.me/c/{}/">Open Group</a>
+★ Cʀᴇᴀᴛᴇᴅ Dᴀᴛᴇ : <code>{}</code>"""
 
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+★ ID        : <code>{}</code>
+★ Nᴀᴍᴇ      : {}
+★ Uꜱᴇʀɴᴀᴍᴇ  : @{}
+★ Mᴇɴᴛɪᴏɴ   : <a href="tg://user?id={}">{}</a>
+★ Jᴏɪɴ Dᴀᴛᴇ : <code>{}</code>"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
@@ -468,7 +473,10 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code>
+
+🤖 Bot: <a href="https://t.me/Moviessearchfilterbot">@Moviessearchfilterbot</a>
+</b>"""
 
     LOGO = """
 ████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
@@ -752,3 +760,4 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
